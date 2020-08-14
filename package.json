@@ -1,0 +1,26 @@
+{
+  "name": "storybook-vue",
+  "version": "1.0.0",
+  "description": "Base template using Storybook 5 in a Vue project.",
+  "scripts": {
+    "start": "start-storybook -p 7000",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addons": "^6.0.7",
+    "@storybook/vue": "^6.0.7",
+    "@vue/cli-plugin-babel": "~4.5.3",
+    "@vue/cli-service": "~4.5.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-vue": "^2.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "keywords": [
+    "vue"
+  ]
+}
