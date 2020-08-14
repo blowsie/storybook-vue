@@ -4,7 +4,8 @@
   "description": "Base template using Storybook 5 in a Vue project.",
   "scripts": {
     "start": "start-storybook -p 7000",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -12,12 +13,16 @@
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^6.0.7",
+    "@storybook/addon-essentials": "^6.0.7",
+    "@storybook/addon-links": "^6.0.7",
     "@storybook/addons": "^6.0.7",
     "@storybook/vue": "^6.0.7",
-    "@vue/cli-plugin-babel": "~4.5.3",
+    "@vue/cli-plugin-babel": "^4.5.3",
     "@vue/cli-service": "~4.5.3",
     "babel-loader": "^8.1.0",
     "babel-preset-vue": "^2.0.2",
+    "react-is": "^16.13.1",
     "vue-template-compiler": "^2.6.11"
   },
   "keywords": [

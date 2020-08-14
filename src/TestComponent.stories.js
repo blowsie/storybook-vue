@@ -1,4 +1,4 @@
-import TestComponent from '../src/TestComponent.vue';
+import TestComponent from './TestComponent.vue';
 
 export default {
   title: 'Test/TestComponent',
@@ -6,14 +6,9 @@ export default {
   argTypes: {
     color: { control: { type: 'color' } },
   },
-  parameters: {
-    docs: {
-      iframeHeight: 80,
-    },
-  },
 };
 
-export const Template = (args, argTypes) => ({
+const Template = (args, argTypes) => ({
   props: Object.keys(argTypes),
   components: { TestComponent },
   template:

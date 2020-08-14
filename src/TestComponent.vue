@@ -1,18 +1,22 @@
 <template>
-  <div>{{ name }}{{ size }}{{ color }}</div>
+  <div>
+    Name: {{ name }}<br />
+    Size:{{ size }}<br />
+    Color:{{ color }}
+  </div>
 </template>
 
 <script>
 export default {
-  name: "TestComponent",
+  name: 'TestComponent',
   props: {
     name: {
       type: String,
-      default: "Icon",
+      default: 'Icon',
     },
     color: {
       type: String,
-      default: "red",
+      default: 'red',
     },
     size: {
       type: Number,
